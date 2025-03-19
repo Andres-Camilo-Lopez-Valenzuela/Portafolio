@@ -74,9 +74,26 @@ h1 {
 }
 
 .estudios{
+    padding: 10px;
     background-color: #fabd55;
     position: absolute;
-    top: 250px;
+    width: 70vw;
+    top: 220px;
     left: 280px;
-    margin: 0 auto;
+}
+.stack-tecnologico{
+    padding: 10px;
+    position:absolute;
+    background-color: #fabd55;
+    left: 280px;
+    width: 70vw;
+    top: 380px;
+}
+.ingles{
+    padding: 10px;
+    position:absolute;
+    background-color: #fabd55;
+    left: 280px;
+    width: 70vw;
+    top: 505px;
 }
