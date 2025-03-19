@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FC9765;
+    font-family: Arial, sans-serif;
+}
+
+.container-head {
+    display: flex;  /* Alinea la imagen y el texto en la misma fila */
+    align-items: center;  /* Centra verticalmente */
+    width: 100%;
+    height: 70px;
+    background-color: #FC656F;
+    color: white;
+    padding: 0 20px; /* Espaciado interno */
+    position: relative; /* Para que la imagen sobresalga correctamente */
+    z-index: 1;
+}
+
+.imagen-circular {
+    width: 90px; /* Aumenta el tamaño de la imagen */
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 2px rgb(233, 178, 89);
+    margin-right: 15px; /* Espacio entre la imagen y el texto */
+    position: relative; /* Permite mover la imagen */
+    top: 15px; /* Hace que la imagen sobresalga de la cabecera */
+    z-index: 10; /* Asegura que la imagen esté por encima de la cabecera */
+}
+
+h1 {
+    font-size: 1.5em;
+    white-space: nowrap; /* Evita que el texto pase a una nueva línea */
+}
+
+.container {
+    color: wh;
+    position: absolute; /* Permite posicionarlo con top y left */
+    top: 110px; /* Ajusta la distancia desde el header */
+    left: 10px; /* Pegado a la izquierda */
+    background-color: #fabd55;
+    height: 250px; /* Aumenta la altura */
+    width: 200px; /* Reduce el ancho */
+    text-align: le;
+    padding: 10px;
+}
+
+.redes-sociales {
+    position: absolute; /* Permite posicionarlo con top y left */
+    top: 370px; /* Ajusta la distancia desde el header */
+    left: 10px; /* Pegado a la izquierda */
+    background-color: #fabd55;
+    height: 250px; /* Aumenta la altura */
+    width: 200px; /* Define el ancho */
+    text-align: left; /* Corrige 'le' */
+    padding: 10px;
+    word-wrap: break-word;/* Evita que el texto se salga */ 
+
+}
