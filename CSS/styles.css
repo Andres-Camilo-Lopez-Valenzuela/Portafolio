@@ -62,3 +62,21 @@ h1 {
     word-wrap: break-word;/* Evita que el texto se salga */ 
 
 }
+
+.PersonalData {
+    padding: 10px; /* Agranda el cuadro para que no quede tan justo */ 
+    position: absolute; 
+    top: 110px;
+    background-color: #fabd55;
+    width: 1000vw;
+    max-width: 70vw;
+    left: 280px;
+}
+
+.estudios{
+    background-color: #fabd55;
+    position: absolute;
+    top: 250px;
+    left: 280px;
+    margin: 0 auto;
+}
